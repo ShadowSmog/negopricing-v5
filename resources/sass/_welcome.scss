@@ -1,0 +1,86 @@
+//HOMEPAGE GENERAL PLACEMENT AND DEFINITION
+.body-background
+{
+    @include backgroundWaves;
+}
+
+.body-presentation
+{
+    padding: 5%;
+    @include transBackgroundGradient;
+}
+
+//HOME LOGO
+.img-presentation
+{
+    display: block;
+    margin: auto;
+    height: 650px;
+    width: 650px;
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
+
+//DIRECTION'S MESSAGE APPEARANCE
+.users-messages
+{
+    margin: 1.5%;
+}
+.direction-message
+{
+    font-size: $font-medium;
+    line-height: $lineheight-medium;
+    font-family: $primary-font;
+    color: $neutral-color;
+}
+
+.message-left
+{
+    text-align: left;
+}
+
+.message-halfleft
+{
+    margin-left: 15%;
+}
+
+.message-halfright
+{
+    margin-left: 40%;
+}
+
+.message-right
+{
+    text-align: right;
+}
+
+.emphasis
+{
+    color: $primary-color;
+}
+
+.light-emphasis
+{
+    color: $secondary-color;
+}
+//REDIRECTION TO THE SITE'S BUTTON APPEARANCE AND PLACEMENT
+.enter-btn
+{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 50px;
+    font-family: $primary-font;
+    background-color: rgba(255, 255, 255, 0.493);
+    color:$quaternary-color;
+    font-size: $font-small;
+    font-weight: bold;
+    border: none;
+}
+
+.enter-btn:hover
+{
+    background-color: $quaternary-color;
+}
+
+

@@ -1,0 +1,28 @@
+//****** ARTICLES' REFERENCEMENT PAGE'S PAGINATION ******//
+.page-item
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.page-link
+{
+    font-family: $primary-font;
+    color: $light-color;
+    background: $neutral-color;
+    font-weight: bold;
+}
+
+.page-link:hover
+{
+    font-family: $primary-font;
+    background: $quaternary-color;
+    color: $light-color;
+    font-weight: bold;
+}
+
+.current-page
+{
+    background: $tertiary-color;
+    color: $light-color;
+}

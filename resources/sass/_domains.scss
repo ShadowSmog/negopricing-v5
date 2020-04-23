@@ -1,0 +1,68 @@
+//****** DOMAINS' PAGE ******//
+
+//Domains's introduction stylisation
+
+.domains
+{
+    @include backgroundWaves;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.domains-title
+{
+    @include titleDefinition;
+}
+
+.domains-presentation
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    font-size: $font-small;
+    color: $quaternary-color;
+    font-family: $secondary-font;
+    padding-left: 3%;
+    border-left: solid $tertiary-color 3px;
+}
+
+.domains-intro
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    font-size: $font-small;
+    color: $quaternary-color;
+    font-family: $secondary-font;
+    padding-left: 3%;
+    border-left: solid $tertiary-color 3px;
+}
+
+//Card's definition
+.domain-content
+{
+    background: rgba(49, 49, 49, 0.13);
+    font-family: $secondary-font;
+}
+
+.domains-header
+{
+   margin-bottom: 5%;
+   background: rgba(49, 49, 49, 0.13);
+   font-family: $primary-font;
+   font-variant: small-caps;
+   font-weight: bold;
+}
+
+.card-domains
+{
+    border: none;
+    padding: none;
+}
+
+.card-text-domains
+{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+}

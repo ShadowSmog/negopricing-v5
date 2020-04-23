@@ -1,0 +1,118 @@
+@media screen and (min-width: 576px)
+{
+
+//Layout
+
+    .discuss-logo
+    {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    //Layout
+
+    //About Page
+
+    //Domains Page
+
+    //Activities Page
+
+    // Story Page
+
+    //Contact Page
+}
+
+@media screen and (min-width: 992px)
+{
+    //Layout
+
+    .header-img
+    {
+        width: 800px;
+        height: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    //About Page
+
+    .negochart-title-group
+    {
+        display: flex;
+        padding-left: 3%;
+    }
+
+    .negochart-title
+    {
+        width: 60%;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+
+    #card-pointofsale
+    {
+        margin-left: 33.5%;
+    }
+    //Domains Page
+
+    //Activities Page
+
+    //Story Page
+
+    //Contact Page
+    .contact-group
+    {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .prospects, .candidates
+    {
+        margin: 3%;
+        background: white;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    //About Page
+
+    .negochart-title
+    {
+        width: 60%;
+        margin-top: 3.5%;
+        margin-left: 5%;
+        line-height: $lineheight-big;
+    }
+
+    .discuss-logo
+    {
+        margin-top: 5%;
+        width: 250px;
+        height: 250px;
+    }
+
+    //Domains Page
+    .domain-content
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card-text
+    {
+        width: 30%;
+    }
+
+    //Activities Page
+
+    // Story Page
+
+    //Contact Page
+    
+}

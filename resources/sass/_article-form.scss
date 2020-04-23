@@ -1,0 +1,47 @@
+//****** PAGES LINKED TO ARTICLES CREATION AND EDITION ******//
+
+//Backgrounds' gestion
+.article-create
+{
+    @include backgroundWaves;
+    padding: 5%;
+}
+
+.article-edit
+{
+    @include backgroundWaves;
+    padding: 5%;
+}
+
+//Titles' gestion
+.article-create-title
+{
+    @include formTitle;
+}
+
+.article-edit-title
+{
+    @include formTitle;
+}
+
+.article-edit-title-target
+{
+    text-align: center;
+}
+
+//Form's gestion
+.article-form
+{
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.special-form-elmt
+{
+    width: 50%;
+    border-radius: 50px;
+}
+
+//Submit button's gestion
+
+

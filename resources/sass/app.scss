@@ -1,0 +1,26 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//External styles
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+//Styles per files
+@import'_layout';
+@import'_welcome';
+@import'_about';
+@import'_domains';
+@import'_activities';
+@import'_articles-index';
+@import'_article-show';
+@import'_article-form';
+@import'_contact';
+@import'_auth';
+@import'_home';
+@import'_pagination';
+@import'_mixins';
+@import'_responsive';

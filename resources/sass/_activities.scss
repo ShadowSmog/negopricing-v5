@@ -1,0 +1,15 @@
+//****** ACTIVITIES' PAGE ******//
+
+//Activities' introduction stylisation
+
+.activities
+{
+    @include backgroundWaves;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.activities-title
+{
+    @include titleDefinition;
+}

@@ -1,0 +1,199 @@
+//CONTACTS' PAGE STRUCTURE
+.contact
+{
+    @include backgroundWaves;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact-group
+{
+    background: $transquaternary-color;
+    border-top: dashed 2px $light-color;
+    border-bottom: dashed 2px $light-color;
+}
+
+.prospects, .candidates
+{
+    margin: 5%;
+    border-radius: 5px;
+    background: $light-color;
+}
+
+.prospects-content, .candidates-content
+{
+    padding: 3%;
+    @include backgroundWaves;
+}
+
+//Contact's logos' placement
+.contact-img
+{
+    display: block;
+    margin: auto;
+}
+
+//Titles
+.contact-title
+{
+    @include titleDefinition;
+}
+
+.contact-prospects-title,.contact-candidates-title
+{
+    background: $neutral-color;
+    padding: 2%;
+    color: $light-color;
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size: $font-small;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+//Button's
+
+.btn-direction
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow-logo
+{
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+.btn-prospects, .btn-candidates
+{
+    background-color: $important-color;
+    font-family: $primary-font;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.btn-prospects:hover, .btn-candidates:hover
+{
+    background-color: $neutral-color;
+    color: $important-color;
+}
+
+//Subtitles
+.contact-prospects-subtitle,.contact-candidates-subtitle
+{
+    padding: 2%;
+    color: $tertiary-color;
+    font-weight: bold;
+    font-family: $primary-font;
+}
+
+//Contact images' definition
+
+.informations-logo, .candidates-logo
+{
+    height: 100px;
+    width: 100px;
+}
+
+
+//FORM'S APPEARANCE
+.prospects-contact, .candidates-contact
+{
+    @include backgroundWaves;
+    padding: 5%;
+}
+
+.card-form-prospects, .card-form-candidates
+{
+    width: 70%;
+    margin: auto;
+}
+
+.prospects-header, .candidates-header
+{
+    background-color: $important-color;
+}
+
+.form-prospects-title, .form-candidates-title
+{
+    text-align: center;
+    color: $light-color;
+    font-family: $primary-font;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.closure
+{
+    color: $light-color;
+    text-decoration: none;
+}
+
+.closure:hover
+{
+    color: $light-color;
+    text-decoration: none;
+}
+
+
+.prospects-body , .candidates-body
+{
+    @include transBackgroundGradient;
+    color: $light-color;
+    font-weight: bold;
+    font-family: $primary-font;
+}
+
+form
+{
+    margin-left: 15%;
+}
+
+label
+{
+    font-family: $primary-font;
+}
+
+.form-control
+{
+    width: 80%;
+    background: rgba(136, 136, 136, 0.315);
+    border: none;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.form-control-message
+{
+    width: 80%;
+    background: rgba(136, 136, 136, 0.315);
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+    color: $light-color;
+}
+
+.data-rights
+{
+    font-family: $primary-font;
+    color: $light-color;
+    background: $quaternary-color;
+    padding: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.data-rights-link, .data-rights-link:hover
+{
+    color: $tertiary-color;
+}
+
+

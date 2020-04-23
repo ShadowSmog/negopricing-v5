@@ -1,0 +1,195 @@
+@import'_mixins';
+
+// HEADER'S LAYOUT APPEARANCE
+.header-contener
+{
+    background-image: url(../img/pictures/waves2.jpg);
+}
+
+.header-img
+{
+    
+}
+
+// NAVIGATION'S DEFINITION
+//Navbar top-fixation
+.main-nav
+{
+    position: sticky;
+    top:0;
+    z-index:3000;
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+//Navbar appearance
+.main-nav
+{
+    font-family: $primary-font;
+    background: linear-gradient($tertiary-color, $quaternary-color 100%);
+}
+
+
+//Navigation's elements appearance
+.nav-item
+{
+    color: $neutral-color;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.nav-item:hover
+{
+    background: $quaternary-color;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.dropdown-menu
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: $quaternary-color;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown-item
+{
+    color: $light-color;
+    padding: 5%;
+    font-family: $secondary-font;
+}
+
+//Auth items appearance
+.auth-nav-link
+{
+    color:$light-color;
+}
+
+.btn-login, .btn-register
+{
+    border-radius: 50px;
+    border: none;
+    color: $light-color;
+    font-weight: bold;
+    background-color: $quaternary-color;
+    font-family: $primary-font;
+    height: 50px;
+}
+
+.btn-login
+{
+    border-right: 1px solid $neutral-color;
+}
+
+.btn-register
+{
+    border-left: 1px solid $neutral-color;
+}
+
+.btn-login:hover, .btn-register:hover
+{
+    background-color: $neutral-color;
+    color: $light-color;
+}
+
+.auth-logo
+{
+    margin-right: 5px;
+}
+
+
+// FOOTER'S DEFINITION
+.main-footer
+{
+    padding: 3%;
+    font-family: $primary-font;
+    background: linear-gradient($tertiary-color 0%, $quaternary-color 100%);
+    color: $light-color;
+}
+
+.legal-declaration-link
+{
+    color: $neutral-color;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.legal-declaration-link:hover
+{
+    color: $light-color;
+}
+
+.rights-link
+{
+    color: $neutral-color;
+}
+
+.rights-link:hover
+{
+    color: $quaternary-color;
+    text-decoration: none;
+}
+
+.footer-logo
+{
+    width:100px;
+    height: 100px;
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
+
+// Confirmation message appearance
+.contact-confirmation
+{
+    background: $light-color;
+    color: $tertiary-color;
+    font-family: $primary-font;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 2%;
+}
+
+//Scroll-to-top element
+#scroll_to_top
+{
+    z-index: 300;
+	position: fixed;
+	bottom: 40%;
+	right: 5%;
+	display: none;
+	border-radius: 3px;
+}
+
+#scroll_to_top:hover
+{
+	cursor: pointer;
+}
+
+#scroll_to_top-img
+{
+	display: block;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

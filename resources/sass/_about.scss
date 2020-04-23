@@ -1,0 +1,216 @@
+// Background's definition
+.about
+{
+    @include backgroundWaves;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.background-logo-container
+{
+    display: block;
+    margin-top: 7%;
+}
+
+.background-logo
+{
+    display: block;
+    position: absolute;
+    z-index: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 1000px;
+    width: 1000px;
+    opacity: 0.3;
+}
+
+.negochart-group
+{
+    padding-bottom: 10%;
+    margin-top: -7%;
+}
+
+//Title definition
+.about-title
+{
+    @include titleDefinition;
+}
+
+//Explainations appearance
+.negochart-text
+{
+    width: 60%;
+    margin-left: 25%;
+    font-size: $font-small;
+    font-family: $secondary-font;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    border-left: solid $tertiary-color 3px;
+    color: $quaternary-color;
+}
+
+.negochart-explainations
+{
+    margin-top: 2%;
+}
+
+.buyer-emphasis, .seller-emphasis
+{
+    font-size: $font-small;
+}
+
+
+// Chart's position
+.negochart-container
+{
+    z-index: 0;
+   width: 100%;
+   padding: 3%;
+   margin-top: 5%;
+}
+
+//Roles' section appearance
+
+.roles-title
+{
+    @include formTitle
+}
+
+.roles
+{
+    margin-bottom:10%;
+}
+
+.role
+{
+    background: $light-color;
+    padding: 6%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.seller-content
+{
+    padding-left: 5%;
+    border-left: solid $primary-color 3px;
+}
+
+.buyer-content
+{
+    padding-left: 5%;
+    border-left: solid $secondary-color 3px;
+}
+
+.seller-title, .buyer-title
+{
+    font-family: $primary-font;
+    font-size: $font-medium;
+    color: $quaternary-color;
+    margin-bottom: 7%;
+}
+
+.buyer-text, .seller-text
+{
+   color: $quaternary-color;
+   font-family: $secondary-font;
+}
+
+//Principles' section appearance
+.principles-title
+{
+    @include formTitle;
+}
+
+.img-pull, .img-push
+{
+    height: 200px;
+    width: 200px;
+}
+
+.push-header
+{
+    background: $primary-color;
+}
+
+.pull-header
+{
+    background: $secondary-color;
+}
+
+.push-header, .pull-header
+{
+    font-family: $primary-font;
+    border: none;
+}
+
+.push-title, .pull-title
+{
+    color: $light-color;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-push, .card-pull
+{
+    width:40%;
+    border: none;
+}
+
+.principles-cards
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.img-push, .img-pull
+{
+    display: block;
+    margin: auto;
+}
+
+.push-body
+{
+    background: $transprimary-color;
+}
+
+.pull-body
+{
+    background: $transsecondary-color;
+}
+
+.push-illustration, .pull-illustration
+{
+    display: flex;
+    color: $quaternary-color;
+    font-family: $primary-font;
+    margin: 7%;
+}
+
+.push-subtitle, .pull-subtitle
+{
+    line-height: $lineheight-medium;
+    font-size: $font-small;
+    font-weight: bold;
+}
+
+.push-subtitle
+{
+    color: $primary-color;
+}
+
+.pull-subtitle
+{
+    color: $secondary-color;
+}
+
+.push-description, .pull-description
+{
+    color: $light-color;
+    font-family: $secondary-font;
+    margin: 5%;
+}
+
+.body-waves
+{
+    @include backgroundWaves;
+}

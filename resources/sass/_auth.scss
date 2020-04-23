@@ -1,0 +1,45 @@
+//****** LOGIN AND REGISTER PAGES ******//
+
+.auth-form
+{
+    @include backgroundWaves;
+    padding: 3%;
+}
+
+.login-header, .register-header
+{
+    background: $quaternary-color;
+    border: none;
+    color: $light-color;
+    font-weight: bold;
+    font-size: $font-small;
+    text-align: center;
+}
+
+.login-btn, .register-btn
+{
+    border-radius: 25px;
+    background: $quaternary-color;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 170px;
+}
+
+.login-btn:hover, .register-btn:hover
+{
+    background: $tertiary-color;
+}
+
+
+.forgot-pswd-link
+{
+    color: $tertiary-color;
+}
+
+.forgot-pswd-link:hover
+{
+    color: $tertiary-color;
+}

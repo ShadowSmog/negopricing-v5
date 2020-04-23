@@ -1,0 +1,142 @@
+//****** ARTICLES REFERENCEMENT PAGE ******//
+
+
+//NAVIGATION'S DEFINITION
+.articles-category-nav
+{
+    background: white;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 80px;
+    z-index:3;
+}
+
+.category-nav-item
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-item
+{
+    color: $neutral-color;
+    font-family: $primary-font;
+    font-size: $font-small;
+}
+
+.category-item:hover
+{
+    text-decoration: none;
+    color: $quaternary-color;
+}
+
+
+//ARTICLES' PAGE DEFINITION
+.articles-resume
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    @include backgroundWaves;
+}
+
+.article-create-btn
+{
+    display: block;
+    margin: auto;
+    font-family: $primary-font;
+    font-weight: bold;
+    background: $quaternary-color;
+    width: 30%;
+    border-radius: 50px;
+    border: 20px;
+    padding: 1%;
+}
+
+.articles-resume-title
+{
+    @include titleDefinition;
+}
+
+
+//ARTICLES BLOCKS DEFINITION
+.article-resume
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 3%;
+    padding-right: 5%;
+    background: $translight-color;
+    display: flex;
+    margin-right: 5%;
+}
+
+.article-resume:hover
+{
+    box-shadow: $neutral-color 5px 5px 5px 5px;
+}
+
+
+.article-resume-illu
+{
+    // display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article-resume-title
+{
+    font-family: $primary-font;
+    color: $tertiary-color;
+    font-size: $font-medium;
+}
+
+.article-resume-description
+{
+    color: $quaternary-color;
+    font-family: $secondary-font;
+}
+
+.article-resume-category
+{
+    @include articleCategory;
+}
+
+.article-resume-content
+{
+    border-left: solid $tertiary-color 3px;
+    padding-left: 2%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.btn-show-article
+{
+    font-family: $primary-font;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right: 5%;
+}
+
+
+// SPEC::ARTICLES BY CATEGORIE PAGE
+.articles-by-category
+{
+    @include backgroundWaves;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bycategory-title
+{
+    @include titleDefinition;
+}
+
+.bycategory-subtitle
+{
+    @include formTitle;
+    margin-top: 5%;
+}
